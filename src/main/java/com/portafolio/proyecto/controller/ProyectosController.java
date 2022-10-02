@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://frontend-monigab73.web.app")
+@CrossOrigin(origins = "https://frontend-monigab73.firebaseapp.com/")
     public class ProyectosController {
 @Autowired
     private IProyectosService proyectosServ;
